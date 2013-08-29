@@ -394,5 +394,5 @@ function is_mobile()
     return false; // Мобильный браузер не обнаружен
 }
 
-// test
+// no test here =)
 ?>
