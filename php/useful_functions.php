@@ -226,9 +226,12 @@ function is_index()
 {
 	global $APPLICATION;
 	$dir = $APPLICATION->GetCurDir();
-	if(($dir == '/')||($dir == '/index.php')){
+	if(($dir == '/')||($dir == '/index.php'))
+	{
 		return true;
-	}else{
+	}
+	else
+	{
 		return false;
 	}
 }
